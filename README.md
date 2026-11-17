@@ -1,10 +1,9 @@
-# Reelrank (working title)
+# Filmrank (working title)
 
-Rank the movies and TV shows you've watched without star ratings. Reelrank shows you two titles at a
+Rank the movies and TV shows you've watched without star ratings. Filmrank shows you two titles at a
 time and asks "which did you like more?", then uses your answers to build your own ranked list.
 You can also import your Netflix viewing history and get a yearly "Wrapped"-style recap.
 
-> Status: early development. Nothing is deployed yet.
 
 ## Features (planned)
 
@@ -30,10 +29,10 @@ You can also import your Netflix viewing history and get a yearly "Wrapped"-styl
 
 ## Roadmap
 
-- [ ] **Week 1**: core app: TMDB search, Postgres, ranking, React UI. *Milestone: rank 10 movies in the browser.*
-- [ ] **Week 2**: CSV import, SQS queue, workers, Redis cache, retries and idempotency.
-- [ ] **Week 3**: Kubernetes deploy, CI/CD, worker autoscaling on queue depth, first real users.
-- [ ] **Week 4**: load-test a large import, kill workers mid-job, check for lost or duplicated jobs, record results. Build Wrapped.
+- [ ] **Phase 1**: core app: TMDB search, Postgres, ranking, React UI. *Milestone: rank 10 movies in the browser.*
+- [ ] **Phase 2**: CSV import, SQS queue, workers, Redis cache, retries and idempotency.
+- [ ] **Phase 3**: Kubernetes deploy, CI/CD, worker autoscaling on queue depth, first real users.
+- [ ] **Phase 4**: load-test a large import, kill workers mid-job, check for lost or duplicated jobs, record results. Build Wrapped.
 - [ ] **Later**: a recommender trained on rankings.
 
 ## Local setup
